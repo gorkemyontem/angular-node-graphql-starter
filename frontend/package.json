@@ -1,6 +1,8 @@
 {
   "name": "frontend",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "",
+
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +13,6 @@
     "serve:ssr": "node dist/frontend/server/main.js",
     "build:ssr": "ng build && ng run frontend:server"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~12.1.1",
     "@angular/common": "~12.1.1",
